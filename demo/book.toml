@@ -1,0 +1,7 @@
+[book]
+title = "test"
+authors = ["matheusds4"]
+language = "en"
+
+[output.html]
+theme = "../theme"

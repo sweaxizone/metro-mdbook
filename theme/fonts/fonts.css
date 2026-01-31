@@ -1,0 +1,58 @@
+/* Selawik is licensed under the SIL Open Font License, Version 1.1. See http://scripts.sil.org/OFL */
+/* Gourier (OGCourier) contains an IBM Courier copyright. */
+
+/* selawik-light */
+@font-face {
+  font-family: 'selawik';
+  font-style: normal;
+  font-weight: 300;
+  src: url('{{ resource "fonts/selawkl.woff2" }}') format('woff2');
+}
+
+/* selawik-regular */
+@font-face {
+  font-family: 'selawik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('{{ resource "fonts/selawk.woff2" }}') format('woff2');
+}
+
+/* selawik-bold */
+@font-face {
+  font-family: 'selawik';
+  font-style: normal;
+  font-weight: 700;
+  src: url('{{ resource "fonts/selawkb.woff2" }}') format('woff2');
+}
+
+/* gourier */
+@font-face {
+  font-family: 'gourier';
+  font-style: normal;
+  font-weight: 400;
+  src: url('{{ resource "fonts/OGCourier.woff2" }}') format('woff2');
+}
+
+/* gourier */
+@font-face {
+  font-family: 'gourier';
+  font-style: italic;
+  font-weight: 400;
+  src: url('{{ resource "fonts/OGCourier-Italic.woff2" }}') format('woff2');
+}
+
+/* gourier */
+@font-face {
+  font-family: 'gourier';
+  font-style: normal;
+  font-weight: 700;
+  src: url('{{ resource "fonts/OGCourier-Bold.woff2" }}') format('woff2');
+}
+
+/* gourier */
+@font-face {
+  font-family: 'gourier';
+  font-style: italic;
+  font-weight: 700;
+  src: url('{{ resource "fonts/OGCourier-BoldItalic.woff2" }}') format('woff2');
+}
