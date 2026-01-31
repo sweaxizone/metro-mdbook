@@ -23,7 +23,7 @@
 .hljs-link,
 .hljs-selector-id,
 .hljs-selector-class {
-  color: #d70025;
+  color: #003e8b;
 }
 
 /* Orange */
@@ -34,33 +34,36 @@
 .hljs-literal,
 .hljs-type,
 .hljs-params {
-  color: #b21e00;
+  color: #580483;
 }
 
 /* Green */
 .hljs-string,
 .hljs-symbol,
 .hljs-bullet {
-  color: #008200;
+  color: #005a00;
 }
 
 /* Blue */
 .hljs-title,
 .hljs-section {
-  color: #0030f2;
+  color: #101070;
 }
 
 /* Purple */
 .hljs-keyword,
 .hljs-selector-tag {
-  color: #9d00ec;
+  color: #580483;
 }
 
 .hljs {
   display: block;
   overflow-x: auto;
-  background: #f6f7f6;
   color: #000;
+}
+
+pre > .hljs {
+  background: #bbb;
 }
 
 .hljs-emphasis {

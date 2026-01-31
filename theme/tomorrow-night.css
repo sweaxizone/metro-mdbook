@@ -84,8 +84,11 @@
 .hljs {
   display: block;
   overflow-x: auto;
-  background: #373737;
   color: #c5c8c6;
+}
+
+pre > .hljs {
+  background: #373737;
 }
 
 .coffeescript .javascript,

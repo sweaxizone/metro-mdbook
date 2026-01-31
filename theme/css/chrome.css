@@ -54,7 +54,7 @@ html.sidebar-visible #mdbook-menu-bar {
     height: var(--menu-bar-height);
 }
 #mdbook-menu-bar.bordered {
-    border-block-end-color: var(--table-border-color);
+    /* border-block-end-color: var(--table-border-color); */
 }
 #mdbook-menu-bar .fa-svg, #mdbook-menu-bar .icon-button {
     position: relative;

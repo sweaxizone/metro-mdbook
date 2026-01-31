@@ -9,9 +9,9 @@
     --page-padding: 15px;
     --content-max-width: 750px;
     --menu-bar-height: 50px;
-    --mono-font: "courier new", "gourier";
+    --mono-font: "gourier", "courier new";
     --subtract-code-font: 0px;
-    --code-font-size: calc(12.2px - var(--subtract-code-font)); /* please adjust the ace font size accordingly in editor.js */
+    --code-font-size: calc(11.9px - var(--subtract-code-font)); /* please adjust the ace font size accordingly in editor.js */
     --searchbar-margin-block-start: 5px;
 }
 
@@ -21,7 +21,7 @@
     --bg: hsl(0, 0%, 100%);
     --fg: hsl(0, 0%, 0%);
 
-    --sidebar-bg: #fafafa;
+    --sidebar-bg: var(--bg);
     --sidebar-fg: hsl(0, 0%, 0%);
     --sidebar-non-existant: #aaaaaa;
     --sidebar-active: #1f1fff;
@@ -40,14 +40,13 @@
     --theme-popup-border: #cccccc;
     --theme-hover: #e6e6e6;
 
-    --quote-bg: hsl(197, 37%, 96%);
-    --quote-border: hsl(197, 37%, 91%);
+    --quote-bg: #efe0ff;
 
     --warning-border: #ff8e00;
 
-    --table-border-color: hsl(0, 0%, 95%);
-    --table-header-bg: hsl(0, 0%, 80%);
-    --table-alternate-bg: hsl(0, 0%, 97%);
+    --table-normal-bg: #eee;
+    --table-header-bg: #f0deff;
+    --table-alternate-bg: #e5e5e5;
 
     --searchbar-border-color: #aaa;
     --searchbar-bg: #fafafa;
@@ -101,14 +100,13 @@
     --theme-popup-border: #737480;
     --theme-hover: #282e40;
 
-    --quote-bg: hsl(226, 15%, 17%);
-    --quote-border: hsl(226, 15%, 22%);
+    --quote-bg: #546;
 
     --warning-border: #ff8e00;
 
-    --table-border-color: hsl(226, 23%, 16%);
-    --table-header-bg: hsl(226, 23%, 31%);
-    --table-alternate-bg: hsl(226, 23%, 14%);
+    --table-normal-bg: #373737;
+    --table-header-bg: #554D65;
+    --table-alternate-bg: #404040;
 
     --searchbar-border-color: #aaa;
     --searchbar-bg: #aeaec6;
