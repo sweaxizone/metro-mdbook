@@ -1,6 +1,16 @@
 # Metro mdBook theme
 
+<p align="center">
+  <a href="https://sweaxizone.github.io/metro-mdbook/demo"><img src="https://img.shields.io/badge/Demo-gray"></a>
+</p>
+
 A nice Metro design language based theme for mdBook.
+
+[A demo.](https://sweaxizone.github.io/metro-mdbook/demo)
+
+## To do
+
+- [ ] Replace FontAwesome icons by outline Metro icons
 
 ## Getting started
 
