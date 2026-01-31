@@ -1,28 +1,94 @@
-/* Selawik is licensed under the SIL Open Font License, Version 1.1. See http://scripts.sil.org/OFL */
-/* Gourier (OGCourier) contains an IBM Courier copyright. */
+/* Open Sans is licensed under the Apache License, Version 2.0. See http://www.apache.org/licenses/LICENSE-2.0 */
+/* Gourier (OGCourier) includes an IBM Courier copyright. */
 
-/* selawik-light */
+/* open-sans-300 - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
 @font-face {
-  font-family: 'selawik';
+  font-family: 'open sans';
   font-style: normal;
   font-weight: 300;
-  src: url('{{ resource "fonts/selawkl.woff2" }}') format('woff2');
+  src: local('Open Sans Light'), local('OpenSans-Light'),
+       url('{{ resource "fonts/open-sans-v17-all-charsets-300.woff2" }}') format('woff2');
 }
 
-/* selawik-regular */
+/* open-sans-300italic - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
 @font-face {
-  font-family: 'selawik';
+  font-family: 'open sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'),
+       url('{{ resource "fonts/open-sans-v17-all-charsets-300italic.woff2" }}') format('woff2');
+}
+
+/* open-sans-regular - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'open sans';
   font-style: normal;
   font-weight: 400;
-  src: url('{{ resource "fonts/selawk.woff2" }}') format('woff2');
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('{{ resource "fonts/open-sans-v17-all-charsets-regular.woff2" }}') format('woff2');
 }
 
-/* selawik-bold */
+/* open-sans-italic - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
 @font-face {
-  font-family: 'selawik';
+  font-family: 'open sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'),
+       url('{{ resource "fonts/open-sans-v17-all-charsets-italic.woff2" }}') format('woff2');
+}
+
+/* open-sans-600 - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'open sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+       url('{{ resource "fonts/open-sans-v17-all-charsets-600.woff2" }}') format('woff2');
+}
+
+/* open-sans-600italic - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'open sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'),
+       url('{{ resource "fonts/open-sans-v17-all-charsets-600italic.woff2" }}') format('woff2');
+}
+
+/* open-sans-700 - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'open sans';
   font-style: normal;
   font-weight: 700;
-  src: url('{{ resource "fonts/selawkb.woff2" }}') format('woff2');
+  src: local('Open Sans Bold'), local('OpenSans-Bold'),
+       url('{{ resource "fonts/open-sans-v17-all-charsets-700.woff2" }}') format('woff2');
+}
+
+/* open-sans-700italic - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'open sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'),
+       url('{{ resource "fonts/open-sans-v17-all-charsets-700italic.woff2" }}') format('woff2');
+}
+
+/* open-sans-800 - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'open sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),
+       url('{{ resource "fonts/open-sans-v17-all-charsets-800.woff2" }}') format('woff2');
+}
+
+/* open-sans-800italic - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'open sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'),
+       url('{{ resource "fonts/open-sans-v17-all-charsets-800italic.woff2" }}') format('woff2');
 }
 
 /* gourier */

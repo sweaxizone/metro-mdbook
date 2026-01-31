@@ -1,7 +1,2 @@
-- [ ] On JavaScript's initialization (attach script to head.hbs), call:
-
-```js
-document.documentElement.setProperty("--subtract-code-font", (window.devicePixelRatio - 1).toString() + "px");`
-```
-
 - [ ] After finishing the theme, provide a GH workflow and GH page to test it on mobile.
+  - [ ] Code font size looks okay?

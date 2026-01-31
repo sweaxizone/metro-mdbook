@@ -10,7 +10,8 @@
     --content-max-width: 750px;
     --menu-bar-height: 50px;
     --mono-font: "courier new", "gourier";
-    --code-font-size: 12.9px; /* please adjust the ace font size accordingly in editor.js */
+    --subtract-code-font: 0px;
+    --code-font-size: calc(12.2px - var(--subtract-code-font)); /* please adjust the ace font size accordingly in editor.js */
     --searchbar-margin-block-start: 5px;
 }
 

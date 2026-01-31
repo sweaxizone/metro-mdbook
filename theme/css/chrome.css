@@ -216,6 +216,7 @@ a:hover > .hljs {
 
 pre {
     position: relative;
+    font-size: var(--code-font-size);
 }
 pre > .buttons {
     position: absolute;
@@ -622,6 +623,12 @@ html:not(.js) .sidebar-resize-handle {
 .chapter li.chapter-item {
     line-height: 1.5em;
     margin-block-start: 0.6em;
+}
+
+.chapter li.chapter-item > span > a,
+.chapter .header-item > span > a {
+    font-weight: bold;
+    /* text-transform: uppercase; */
 }
 
 /* When expanded, rotate the chevron to point down. */

@@ -1,13 +1,12 @@
 /* Base styles and content styles */
 
 :root {
-    /* Browser default font-size is 16px, this way 1 rem = 10px */
-    font-size: 62.5%;
+    font-size: 16px;
     color-scheme: var(--color-scheme);
 }
 
 html {
-    font-family: "segoe ui", "selawik", sans-serif;
+    font-family: "segoe ui", "open sans", sans-serif;
     color: var(--fg);
     background-color: var(--bg);
     text-size-adjust: none;
@@ -16,7 +15,6 @@ html {
 
 body {
     margin: 0;
-    font-size: 1.6rem;
     overflow-x: hidden;
 }
 
@@ -46,6 +44,17 @@ h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
 .boring { opacity: 0.6; }
 .hide-boring .boring { display: none; }
 .hidden { display: none !important; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: lighter;
+}
+
+h1 { font-size: 45px }
+h2 { font-size: 40px }
+h3 { font-size: 35px }
+h4 { font-size: 30px }
+h5 { font-size: 25px }
+h6 { font-size: 20px }
 
 h2, h3 { margin-block-start: 2.5em; }
 h4, h5 { margin-block-start: 2em; }
