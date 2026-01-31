@@ -44,6 +44,50 @@ runtime = "http://www.nodejs.org/2009"
 "com.sweaxizone.inputaction" = "1"
 ```
 
+ECMAScript Harmony:
+
+```ts
+import { Y } from "me.yveltal.xy";
+
+class Z extends Y {
+    constructor() {
+        super();
+    }
+
+    mtal() {
+        // code
+    }
+}
+```
+
+XML:
+
+```xml
+<?xml version="1.0"?>
+<!-- yveltal.xml -->
+<y:Y xmlns:y="http://www.yveltal.me/2013/xy">
+    <y:Link>
+    <![CDATA[
+        knight
+    ]]>
+    </y:Link>
+    <y:X x="fine, light"/>
+</y:Y>
+```
+
+Rust:
+
+```rust
+use ninja::fly::*;
+
+pub fn fly_hard(a: impl Into<Fly>) -> f128 {
+    // code
+}
+
+#[derive(PartialEq)]
+struct F(f128);
+```
+
 ## Tables
 
 | foo             | bar                 | qux               |
