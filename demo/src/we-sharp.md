@@ -151,3 +151,7 @@ Nesting level = 5
 ###### Subsubsubsubsubsection
 
 Nesting level = 6
+
+## Keyboard
+
+Press <kbd>Ctrl+C</kbd>
