@@ -872,3 +872,39 @@ html:not(.js) .sidebar-resize-handle {
             height: 100%;
             background: var(--print-button);
         }
+
+    /* previous/next buttons */
+
+        .previous, .next {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            opacity: 0.77;
+            box-sizing: border-box;
+            display: inline-block;
+            border-radius: 0;
+        }
+
+        .previous:hover, .next:hover {
+            opacity: 1;
+        }
+
+        .previous svg, .next svg {
+            display: none;
+        }
+
+        .previous::before {
+            content: "";
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            background: var(--previous-button);
+        }
+
+        .next::before {
+            content: "";
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            background: var(--next-button);
+        }

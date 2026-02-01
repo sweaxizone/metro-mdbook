@@ -8,10 +8,6 @@ A nice Metro design language based theme for mdBook.
 
 [A demo.](https://sweaxizone.github.io/metro-mdbook/demo)
 
-## To do
-
-- [ ] Replace "all" FontAwesome icons by outline Metro icons (missing some)
-
 ## Getting started
 
 Requisites:
