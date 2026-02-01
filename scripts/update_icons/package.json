@@ -1,0 +1,16 @@
+{
+  "name": "update_icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "type": "module",
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.11",
+    "buffer-to-data-url": "^1.0.0",
+    "jimp": "^1.6.0"
+  }
+}
