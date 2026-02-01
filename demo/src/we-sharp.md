@@ -38,7 +38,7 @@ TOML:
 [package]
 name = "com.sweaxizone.metro"
 version = "0.1.0"
-runtime = "http://www.nodejs.org/2009"
+runtime = "http://www.w3.org/1994/web"
 
 [dependencies]
 "com.sweaxizone.inputaction" = "1"
