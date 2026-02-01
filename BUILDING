@@ -17,6 +17,6 @@ This mutates the `variables.css` file.
 
 Running script from root:
 
-```
+```sh
 node scripts/update_icons/script.js
 ```

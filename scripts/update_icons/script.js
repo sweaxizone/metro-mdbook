@@ -30,6 +30,16 @@ const mappings = [
         monochrome: true,
     },
     {
+        variable: "--github-button",
+        filename: "github.png",
+        monochrome: true,
+    },
+    {
+        variable: "--git-edit-button",
+        filename: "lapis.png",
+        monochrome: true,
+    },
+    {
         variable: "--previous-button",
         filename: "previous.png",
         monochrome: true,
