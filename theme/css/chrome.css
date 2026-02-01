@@ -75,6 +75,12 @@ html.sidebar-visible #mdbook-menu-bar {
     background: none;
     padding: 0;
     color: inherit;
+    width: 50px;
+    height: 50px;
+    opacity: 0.77;
+}
+.icon-button:hover {
+    opacity: 1.0;
 }
 .icon-button .fa-svg {
     margin: 0;
@@ -184,6 +190,10 @@ html:not(.js) .left-buttons button {
     float: left;
     right: unset;
     left: var(--page-padding);
+}
+
+#mdbook-sidebar-toggle {
+    box-sizing: border-box;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -688,16 +698,16 @@ html:not(.js) .sidebar-resize-handle {
 
 .theme-popup {
     position: absolute;
-    left: 10px;
+    left: 65px;
     top: var(--menu-bar-height);
     z-index: 1000;
-    border-radius: 4px;
-    font-size: 0.7em;
+    border-radius: 0;
+    font-size: 14px;
     color: var(--fg);
     background: var(--theme-popup-bg);
-    border: 1px solid var(--theme-popup-border);
+    border: 1.7px solid var(--theme-popup-border);
     margin: 0;
-    padding: 0;
+    padding: 5px 10px;
     list-style: none;
     display: none;
     /* Don't let the children's background extend past the rounded corners. */
@@ -773,3 +783,59 @@ html:not(.js) .sidebar-resize-handle {
     /* mdbook's margin for h2 is way too large. */
     margin: 10px;
 }
+
+/* FontAwesome (fa) SVG overrides */
+
+    /* sidebar toggle */
+
+        #mdbook-sidebar-toggle {
+            position: relative;
+        }
+
+        #mdbook-sidebar-toggle svg {
+            display: none;
+        }
+
+        #mdbook-sidebar-toggle::before {
+            content: "";
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            background: var(--sidebar-toggle-button);
+        }
+
+    /* theme toggle */
+
+        #mdbook-theme-toggle {
+            position: relative;
+        }
+
+        #mdbook-theme-toggle svg {
+            display: none;
+        }
+
+        #mdbook-theme-toggle::before {
+            content: "";
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            background: var(--theme-toggle-button);
+        }
+
+    /* search toggle */
+
+        #mdbook-search-toggle {
+            position: relative;
+        }
+
+        #mdbook-search-toggle svg {
+            display: none;
+        }
+
+        #mdbook-search-toggle::before {
+            content: "";
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            background: var(--search-toggle-button);
+        }

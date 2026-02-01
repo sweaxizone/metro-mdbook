@@ -10,7 +10,7 @@ A nice Metro design language based theme for mdBook.
 
 ## To do
 
-- [ ] Replace FontAwesome icons by outline Metro icons
+- [ ] Replace "all" FontAwesome icons by outline Metro icons (missing some)
 
 ## Getting started
 
