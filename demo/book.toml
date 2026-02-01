@@ -5,3 +5,6 @@ language = "en"
 
 [output.html]
 theme = "../theme"
+git-repository-url = "https://github.com/sweaxizone/metro-mdbook"
+git-repository-icon = "fab-github"
+edit-url-template = "https://github.com/sweaxizone/metro-mdbook/edit/master/demo/{path}"
