@@ -8,6 +8,10 @@ A nice Metro design language based theme for mdBook.
 
 [A demo.](https://sweaxizone.github.io/metro-mdbook/demo)
 
+## Preview
+
+![preview](preview.png)
+
 ## Getting started
 
 Requisites:
