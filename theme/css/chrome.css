@@ -648,9 +648,13 @@ html:not(.js) .sidebar-resize-handle {
 }
 
 .chapter li.chapter-item > span > a,
-.chapter .header-item > span > a {
-    font-weight: bold;
-    /* text-transform: uppercase; */
+.chapter .header-item > span > a,
+.chapter strong {
+    font-weight: lighter;
+}
+
+.chapter {
+    font-size: 17px;
 }
 
 /* When expanded, rotate the chevron to point down. */
@@ -701,13 +705,14 @@ html:not(.js) .sidebar-resize-handle {
     left: 65px;
     top: var(--menu-bar-height);
     z-index: 1000;
+    min-width: 150px;
     border-radius: 0;
     font-size: 14px;
     color: var(--fg);
     background: var(--theme-popup-bg);
-    border: 1.7px solid var(--theme-popup-border);
+    border: 2px solid var(--theme-popup-border);
     margin: 0;
-    padding: 5px 10px;
+    padding: 5px 0;
     list-style: none;
     display: none;
     /* Don't let the children's background extend past the rounded corners. */
@@ -721,7 +726,7 @@ html:not(.js) .sidebar-resize-handle {
     width: 100%;
     border: 0;
     margin: 0;
-    padding: 2px 20px;
+    padding: 5px 20px;
     line-height: 25px;
     white-space: nowrap;
     text-align: start;
@@ -729,6 +734,7 @@ html:not(.js) .sidebar-resize-handle {
     color: inherit;
     background: inherit;
     font-size: inherit;
+    font-family: var(--font);
 }
 .theme-popup .theme:hover {
     background-color: var(--theme-hover);
@@ -838,4 +844,31 @@ html:not(.js) .sidebar-resize-handle {
             width: 100%;
             height: 100%;
             background: var(--search-toggle-button);
+        }
+
+    /* print button */
+
+        #print-button {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            opacity: 0.77;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+
+        #print-button:hover {
+            opacity: 1.0;
+        }
+
+        #print-button svg {
+            display: none;
+        }
+
+        #print-button::before {
+            content: "";
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            background: var(--print-button);
         }
