@@ -855,6 +855,7 @@ html:not(.js) .sidebar-resize-handle {
             opacity: 0.77;
             box-sizing: border-box;
             display: inline-block;
+            vertical-align: middle;
         }
 
         #print-button:hover {
