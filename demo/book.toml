@@ -4,6 +4,7 @@ authors = ["matheusds4"]
 language = "en"
 
 [output.html]
+hash-files = false
 theme = "../theme"
 git-repository-url = "https://github.com/sweaxizone/metro-mdbook"
 git-repository-icon = "fab-github"
