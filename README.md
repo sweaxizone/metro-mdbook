@@ -30,3 +30,10 @@ Configure to point to that theme's `theme/` directory on your book manifest:
 [output.html]
 theme = "com.sweaxizone.metro/theme"
 ```
+
+Also add the following to the manifest:
+
+```toml
+[output.html]
+hash-files = false
+```
