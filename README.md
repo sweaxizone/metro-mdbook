@@ -37,3 +37,12 @@ Also add the following to the manifest:
 [output.html]
 hash-files = false
 ```
+
+## Development
+
+Browse https://github.com/rust-lang/mdBook/tree/master/crates/mdbook-html/front-end and compare what has changed in
+mdBook frontend's default files.
+
+## License
+
+Apache 2.0
