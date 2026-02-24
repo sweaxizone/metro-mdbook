@@ -1,12 +1,8 @@
 # Metro mdBook theme
 
-<p align="center">
-  <a href="https://sweaxizone.github.io/metro-mdbook/demo"><img src="https://img.shields.io/badge/Demo-gray?style=for-the-badge"></a>
-</p>
-
 A nice Metro design language based theme for mdBook.
 
-[A demo.](https://sweaxizone.github.io/metro-mdbook/demo)
+<a href="https://sweaxizone.github.io/metro-mdbook/demo"><img src="https://img.shields.io/badge/View%20Demo-gray?style=for-the-badge"></a>
 
 ## Preview
 
